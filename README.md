@@ -1,18 +1,8 @@
-Perfeito — aqui está o **Exercício 2 completo**, já no formato **Mermaid simples (igual você pediu)** com:
-
-* ✅ **Gráfico de Gantt (cronograma 6 meses)**
-* ✅ **Matriz Crystal (entregas + pontos de atenção)**
-* ✅ Pronto para colar no README do GitHub
-
----
-
-# 📊 Gráfico de Gantt
+# Gráfico de Gantt
 
 ```mermaid id="gantt_tc01"
 gantt
-    title Cronograma - Sistema TechConnect Solutions
-    dateFormat  YYYY-MM-DD
-    axisFormat  %m/%Y
+ 
 
     section Planejamento
     Levantamento de requisitos        :a1, 2026-01-01, 10d
@@ -38,7 +28,7 @@ gantt
 
 ---
 
-# 🔷 Matriz Crystal (Entregas + Atenção)
+#  Matriz Crystal
 
 ```mermaid id="crystal_tc01"
 graph TD
@@ -66,9 +56,9 @@ E12["Sistema completo<br>Testado e implantado"]:::critico
 end
 
 %% Cores por intensidade
-classDef baixo fill:#E0E0E0,color:#000,stroke:#9E9E9E,stroke-width:2px;
-classDef medio fill:#FFD54F,color:#000,stroke:#F57F17,stroke-width:2px;
-classDef alto fill:#FFA726,color:#fff,stroke:#EF6C00,stroke-width:2px;
-classDef critico fill:#EF5350,color:#fff,stroke:#B71C1C,stroke-width:2px;
+classDef baixo fill:#E0E0E0,color:#000,stroke:#9E9E9E,stroke-width:5px;
+classDef medio fill:#FFD54F,color:#000,stroke:#F57F17,stroke-width:5px;
+classDef alto fill:#FFA726,color:#000,stroke:#EF6C00,stroke-width:5px;
+classDef critico fill:#EF5350,color:#000,stroke:#B71C1C,stroke-width:5px;
 
 ```
